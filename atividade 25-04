@@ -1,0 +1,9 @@
+from kivy.app import App
+from kvy.uix.button import Button
+
+class MinhaApp (App):
+   def build (self):
+       return Button(text='Clique aqui')
+
+if __name__ == "__main__":
+    MinhaApp().run()
